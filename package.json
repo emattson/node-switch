@@ -1,0 +1,29 @@
+{
+  "name": "node-switch",
+  "version": "1.0.0",
+  "description": "a simple rtc-switchboard we can deploy to heroku as needed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/emattson/node-switch.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "rtc",
+    "switchboard"
+  ],
+  "author": "Eli Mattson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emattson/node-switch/issues"
+  },
+  "homepage": "https://github.com/emattson/node-switch#readme",
+  "dependencies": {
+    "express": "^4.12.4",
+    "rtc-switchboard": "^3.0.0"
+  }
+}
